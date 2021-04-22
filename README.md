@@ -1,4 +1,4 @@
-# Shuffle_and_sort
+# Shuffle and sort
 Simple Shuffle and Sort web app
 
 ## Start & debug
