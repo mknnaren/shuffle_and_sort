@@ -1,0 +1,106 @@
+/*  Styles for Card element */
+.card {
+    color          : #000000;
+    padding        : 10px;
+    font-size      : 18px;
+    justify-content: center;
+    text-align     : center;
+    background     : #efefef;
+    margin         : 2px 0;
+}
+
+/* ====== Number Cards with background colors ========= */
+.card-1 {
+    border-left : 8px solid #6F98A8;
+    border-right: 8px solid transparent;
+}
+
+.card-2 {
+    border-left : 8px solid #2B8EAD;
+    border-right: 8px solid transparent;
+}
+
+.card-3 {
+    border-left : 8px solid #2F454E;
+    border-right: 8px solid transparent;
+}
+
+.card-4 {
+    border-left : 8px solid #2B8EAD;
+    border-right: 8px solid transparent;
+}
+
+.card-5 {
+    border-left : 8px solid #2F454E;
+    border-right: 8px solid transparent;
+}
+
+.card-6 {
+    border-left : 8px solid #BFBFBF;
+    border-right: 8px solid transparent;
+}
+
+.card-7 {
+    border-left : 8px solid #BFBFBF;
+    border-right: 8px solid transparent;
+}
+
+.card-8 {
+    border-left : 8px solid #6f98a8;
+    border-right: 8px solid transparent;
+}
+
+.card-9 {
+    border-left : 8px solid #2F454E;
+    border-right: 8px solid transparent;
+}
+
+@media (min-width: 600px) {
+
+    /* Medai queries for desktop layout */
+    .card {
+        color    : #ffffff;
+        padding  : 40px;
+        font-size: 70px;
+        margin   : 0;
+    }
+
+    .card-1 {
+        background: #6F98A8;
+    }
+
+    .card-2 {
+        background: #2B8EAD;
+        /*#333333;*/
+    }
+
+    .card-3 {
+        background: #2F454E;
+    }
+
+    .card-4 {
+        background: #2B8EAD;
+    }
+
+    .card-5 {
+        background: #2F454E;
+    }
+
+    .card-6 {
+        background: #BFBFBF;
+        /*#EFEFEF;*/
+    }
+
+    .card-7 {
+        background: #BFBFBF;
+    }
+
+    .card-8 {
+        background: #6f98a8;
+    }
+
+    .card-9 {
+        background: #2F454E;
+        /*#72C3DC;*/
+    }
+}

@@ -1,0 +1,154 @@
+/*  Styles for responsive grid layout */
+.grid-row {
+    display  : flex;
+    flex-wrap: wrap;
+    flex     : 1 1 auto;
+}
+
+.grid-col {
+    width: 100%;
+}
+
+/* ======= Grid Col definition for mobile device ===== */
+.grid-col-mob-1 {
+    flex     : 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+}
+
+.grid-col-mob-2 {
+    flex     : 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+}
+
+.grid-col-mob-3 {
+    flex     : 0 0 25%;
+    max-width: 25%;
+}
+
+.grid-col-mob-4 {
+    flex     : 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+}
+
+.grid-col-mob-5 {
+    flex     : 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+}
+
+.grid-col-mob-6 {
+    flex     : 0 0 50%;
+    max-width: 50%;
+}
+
+.grid-col-mob-7 {
+    flex     : 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+}
+
+.grid-col-mob-8 {
+    flex     : 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+}
+
+.grid-col-mob-9 {
+    flex     : 0 0 75%;
+    max-width: 75%;
+}
+
+.grid-col-mob-10 {
+    flex     : 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+}
+
+.grid-col-mob-11 {
+    flex     : 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+}
+
+.grid-col-mob-12 {
+    flex     : 0 0 100%;
+    max-width: 100%;
+}
+
+/* ======= Grid Layout Order ======== */
+.order-mob-1 {
+    order: 1;
+}
+
+.order-mob-2 {
+    order: 2;
+}
+
+/* =======  Grid column definition for desktop device ================ */
+@media (min-width: 600px) {
+
+    /* Medai queries for desktop layout */
+    .grid-col-desk-1 {
+        flex     : 0 0 8.3333333333%;
+        max-width: 8.3333333333%;
+    }
+
+    .grid-col-desk-2 {
+        flex     : 0 0 16.6666666667%;
+        max-width: 16.6666666667%;
+    }
+
+    .grid-col-desk-3 {
+        flex     : 0 0 25%;
+        max-width: 25%;
+    }
+
+    .grid-col-desk-4 {
+        flex     : 0 0 33.3333333333%;
+        max-width: 33.3333333333%;
+    }
+
+    .grid-col-desk-5 {
+        flex     : 0 0 41.6666666667%;
+        max-width: 41.6666666667%;
+    }
+
+    .grid-col-desk-6 {
+        flex     : 0 0 50%;
+        max-width: 50%;
+    }
+
+    .grid-col-desk-7 {
+        flex     : 0 0 58.3333333333%;
+        max-width: 58.3333333333%;
+    }
+
+    .grid-col-desk-8 {
+        flex     : 0 0 66.6666666667%;
+        max-width: 66.6666666667%;
+    }
+
+    .grid-col-desk-9 {
+        flex     : 0 0 75%;
+        max-width: 75%;
+    }
+
+    .grid-col-desk-10 {
+        flex     : 0 0 83.3333333333%;
+        max-width: 83.3333333333%;
+    }
+
+    .grid-col-desk-11 {
+        flex     : 0 0 91.6666666667%;
+        max-width: 91.6666666667%;
+    }
+
+    .grid-col-desk-12 {
+        flex     : 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* ======= Grid Layout Order ======== */
+    .order-desk-1 {
+        order: 1 !important;
+    }
+
+    .order-desk-2 {
+        order: 2 !important;
+    }
+}

@@ -1,0 +1,56 @@
+/*  Common stlyes for whole app */
+
+.app-background {
+    background: #ffffff;
+    margin    : 0px;
+}
+
+.app-body {
+    margin: 10px;
+}
+
+/* --- Text alignment ---- */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/* ---- Justify content --- */
+.justify-center {
+    justify-content: center;
+}
+
+@media (min-width: 600px) {
+
+    /* Medai queries for desktop layout */
+    .app-background {
+        background: #efefef !important;
+    }
+
+    .app-body-margin-less {
+        margin-top : 0 !important;
+        margin-left: 0 !important;
+    }
+
+    /* --- Text alignment ---- */
+    .text-desk-center {
+        text-align: center !important;
+    }
+
+    .text-desk-right {
+        text-align: right !important;
+    }
+
+    .text-desk-left {
+        text-align: left !important;
+    }
+
+
+}
